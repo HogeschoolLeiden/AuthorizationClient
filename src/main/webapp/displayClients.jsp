@@ -5,6 +5,7 @@
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -42,7 +43,7 @@
                                 <c:out value='${client.opt("redirecturi")}' />
                             </td>
                             <td>
-                                <c:out value='${client.opt("creationdate")}' />
+                                <c:out value='${client.opt("creationdate")}'/> 
                             </td>
                             <td>
                                 <c:out value='${client.opt("expires")}' />
